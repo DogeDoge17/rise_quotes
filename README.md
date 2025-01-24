@@ -18,4 +18,4 @@
  Again, this repo does not include most of the code that runs the management of the bot, but only what will be tweeted. All that code can be found in [cli-bot-lib](https://github.com/DogeDoge17/cli-bot-lib). Please refer to that if you want to see more of the innerworkings of the bot. (minus the actual bits that webscrape as thats handled by Quill, which isnt open source yet😅)
 
 # Quill.dll
- This is the backend of the twitter webscraper i use and wrote. Source code and github page is coming soon but unfortunately, as of right now, you will just have to download the dll [Here](https://github.com/DogeDoge17/cli-bot-lib/blob/main/Quill.dll)
+ This is the backend of the twitter webscraper i use and wrote. Source code and github page is coming soon but unfortunately, as of right now, you will just have to download the dll [here](https://github.com/DogeDoge17/cli-bot-lib/blob/main/Quill.dll)
