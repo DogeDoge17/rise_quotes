@@ -2,16 +2,16 @@
  The source code to [Rise Quotes](https://x.com/rise_quotes) on Twitter
 
 # Setup
- Make a login.txt in the main directory file and fill it in this manner
+ Make a login.txt in the main directory file and fill it in this manner\
  	```
- 		username
+ 		username\
  		password
  	```
  not the most secure ik but idrc; it works for me
 
 # Dependencies
- You can find the source of the cli-bot thing at [cli-bot-lib](https://github.com/DogeDoge17/cli-bot-lib)
- You can find the Quill.dll file inside that repo too as its required
+ You can find the source of the cli-bot thing at [cli-bot-lib](https://github.com/DogeDoge17/cli-bot-lib)\
+ You can find the Quill.dll file inside that repo too as its required\
  You also need [Newtonsoft.Json](https://www.nuget.org/packages/newtonsoft.json/), [Selenium](https://www.nuget.org/packages/selenium.webdriver), and [WaitHelpers](https://www.nuget.org/packages/SeleniumExtras.WaitHelpers) as Quill.dll depends on them
 
 # cli-bot-lib
