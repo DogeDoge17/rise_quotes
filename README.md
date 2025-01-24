@@ -3,11 +3,8 @@
 
 # Setup
  Make a login.txt in the main directory file and fill it in this manner\
- 	```
- 		public static void main(String[] args){
-     System.out.println("HOW DO I DO NEW LINES CUH");
-   }
- 	```\
+ 	```username```\
+  ```password```\
  not the most secure ik but idrc; it works for me
 
 # Dependencies
