@@ -2,7 +2,7 @@
  The source code to [Rise Quotes](https://x.com/rise_quotes) on Twitter
 
 # Setup
- Make a login.txt in the main directory file and fill it in this manner\
+ Make a login.txt in the main directory file and fill it in this manner
 ```bash
 username
 password
