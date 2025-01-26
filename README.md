@@ -3,7 +3,7 @@
 
 # Setup
  Make a login.txt in the main directory file and fill it in this manner\
- 	```bash
+ 	```
   username
   password
   ```
