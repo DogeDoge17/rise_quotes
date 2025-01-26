@@ -3,10 +3,10 @@
 
 # Setup
  Make a login.txt in the main directory file and fill it in this manner\
- 	```
-  username
-  password
-  ```
+```bash
+username
+password
+```
  not the most secure ik but idrc; it works for me
 
 # Dependencies
