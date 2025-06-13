@@ -1,13 +1,16 @@
 ﻿using cli_bot;
+using Quill;
 using Quill.Pages;
 using Path = cli_bot.Path;
 
 Console.WriteLine(Path.Assembly / "quotes.txt");
 string[] words = File.OpenText(Path.Assembly / "quotes.txt").ReadToEnd().Split('|', StringSplitOptions.RemoveEmptyEntries).Select(wr => wr.Trim().Replace("\\n", "\n")).ToArray();
 
+DriverCreation.options.headless = false;
+
 TwitterBot rise = new(TimeSpan.FromMinutes(60)) { DisplayName = "Rise Quotes" };
 
-rise.runAction += Run;
+rise.RunAction += Run;
 
 rise.Start();
 
